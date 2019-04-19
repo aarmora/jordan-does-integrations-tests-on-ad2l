@@ -1,0 +1,43 @@
+{
+  "name": "jordan-does-integration-tests-on-ad2l",
+  "version": "1.0.0",
+  "description": "Using puppeteer, I do automated integration tests on the Amateur Dota 2 League website.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000 -r ts-node/register src/test/**/*.spec.ts --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aarmora/jordan-does-integrations-tests-on-ad2l.git"
+  },
+  "keywords": [
+    "Typescript",
+    "Javascript",
+    "Puppeteer",
+    "Web",
+    "Scraping",
+    "Integration",
+    "Tests"
+  ],
+  "author": "Jordan Hansen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aarmora/jordan-does-integrations-tests-on-ad2l/issues"
+  },
+  "homepage": "https://github.com/aarmora/jordan-does-integrations-tests-on-ad2l#readme",
+  "dependencies": {
+    "puppeteer": "^1.11.0",
+    "puppeteer-helpers": "^1.0.10"
+  },
+  "devDependencies": {
+    "@types/node": "^11.11.6",
+    "@types/puppeteer": "^1.11.1",
+    "tslint": "^5.14.0",
+    "typescript": "^3.2.2",
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.5",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "ts-node": "^7.0.1"
+  }
+}
