@@ -8,7 +8,7 @@ Clone the repository and run `npm i`.
 
 After that, you just need to run `npm start`.
 
-[Full Guide](https://javascriptwebscrapingguy.com/jordan-scrapes-alibaba/)
+[Full Guide](https://javascriptwebscrapingguy.com/jordan-does-integration-tests-on-ad2l/)
 
 ### Prerequisites
 
