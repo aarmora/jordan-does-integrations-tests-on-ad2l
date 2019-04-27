@@ -6,7 +6,7 @@ Runs some simple integration tests on [Amateur Dota 2 League](https://dota.playo
 
 Clone the repository and run `npm i`. 
 
-After that, you just need to run `npm start`.
+After that, you just need to run `npm test`.
 
 [Full Guide](https://javascriptwebscrapingguy.com/jordan-does-integration-tests-on-ad2l/)
 
